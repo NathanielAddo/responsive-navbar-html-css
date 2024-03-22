@@ -17,7 +17,7 @@ body{
   display: block;
   margin:0px;
 }
-  .navbar-container{
+  .large-devices-navbar-container{
   display: grid;
   grid-template-columns: 3fr 7fr;
   width:100%;
@@ -25,13 +25,9 @@ body{
   margin: 0px;
   background-color: #22333B;
  }
- .your-logo-div{
+ .your-logo-div ,.your-logo-image{
   height: 50px;
   width: 100%;
- }
- .your-logo-image{
-  width: 30%;
-  height: auto;
  }
  .navbar-text{
   margin: none;
@@ -41,16 +37,7 @@ body{
  .home-text {
   margin-left: 4%;
  }
- .appointment-text {
-  margin-left: 8%;
- }
- .notifications-text {
-  margin-left: 8%;
- }
- .contact-us-text {
-  margin-left: 8%;
- }
- .about-us-text{
+ .appointment-text ,.notifications-text ,.contact-us-text ,.about-us-text{
   margin-left: 8%;
  }
 }

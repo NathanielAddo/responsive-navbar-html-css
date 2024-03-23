@@ -14,6 +14,9 @@ body{
   display: block;
   margin:0px;
 }
+  .small-devices-navbar-container{
+    display:none;
+  }
   .large-devices-navbar-container{
   display: grid;
   grid-template-columns: 3fr 7fr;

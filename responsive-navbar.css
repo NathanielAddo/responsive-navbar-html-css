@@ -1,6 +1,28 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {...}
-
+body {
+  display: block;
+  margin: 0px;
+}
+.side-menu{
+  width: 50%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  background-color: #22333B;
+  transition: left 0.3s ease;
+  color: #FFFFFF;
+}
+#mainContent{
+  margin-left: 50%;
+  transition: margin-left 0.3s ease;
+}
+#toggleMenu{
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   body{

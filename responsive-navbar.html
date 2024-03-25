@@ -11,7 +11,7 @@
   <body>
     <div class="large-devices-navbar-container">
       <div class="your-logo-div">
-        <img class="your-logo-image" src=".images/YOUR LOGO.png" >
+        <img class="your-logo-image" src="./images/YOUR LOGO.png" >
       </div>
       <div class="navbar-text-container">
       <p class="navbar-text">
@@ -38,11 +38,19 @@
       </div>
     </div>
     <div class="extra-small-devices-container">
-      <button id="toggleMenu">toggleMenu</button>
-      <div id="sideMenu" class="side-menu">
-        <p>Home</p>
+      <div class="navbar-container">
+        <div><button id="toggleMenu">toggleMenu</button></div>
+        <div class="your-logo-div">
+          <img src="./images/YOUR LOGO.png" alt="Your logo" class="your-logo-image">
+        </div>
       </div>
-      <div id="mainContent">mainnnnn</div>
+      <div id="sideMenu" class="side-menu">
+        <p class="home-text">Home</p>
+        <p class="appointment-text">Your appointments</p>
+        <p class="notifications-text">Notifications</p>
+        <p class="contact-us-text">Contact Us</p>
+        <p class="about-us-text">About Us</p>
+      </div>
       <script src="script.js"></script> 
     </div>
   </body>

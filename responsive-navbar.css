@@ -27,6 +27,7 @@ body {
   top: 10px;
   left: 10px;
   z-index: 1;
+  cursor: pointer;
 }
 .home-text{
   margin-top: 20%;

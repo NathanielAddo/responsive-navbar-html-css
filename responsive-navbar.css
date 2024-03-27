@@ -62,6 +62,7 @@ body {
     width: 100%;
    }
    .icon-line{
+    margin-right: 4%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +102,7 @@ body{
   width: 100%;
  }
  .navbar-text{
-  margin: none;
+  margin-right: 4%;
   color: #FFFFFF;
   background-color: #22333B;
   display: flex;

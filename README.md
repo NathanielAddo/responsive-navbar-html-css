@@ -13,6 +13,14 @@ __Technologies Used:__
 
 * HTML  
 * CSS
+ 
+ __Files:__
+  
+responsive-navbar.html: This file contains the HTML structure for the responsive navigation bar.
+
+responsive-navbar.css: This file contains the CSS styles for styling the navigation bar and making it responsive.  
+
+script.js: This JavaScript file contains scripts for enhancing the functionality of the navigation bar, such as dropdown menus or mobile navigation toggles.  
 
 __Usage:__  
 To use this navbar design in your project, follow these steps:  
@@ -26,17 +34,6 @@ __Preview:__
 ![Medium Screen Navbar Preview](images/medium-devices-navbar.jpeg)
 ![Small Screen Navbar Preview](images/small-devices-navbar.jpeg)
 ![Sidemenu Preview](images/sidemenu.jpeg)
-
-__File Structure:__
-project_folder/  
-│  
-├── css/  
-│   └── responsive-navbar.css  
-│  
-├── js/  
-│   └── script.js  
-│  
-└── responsive-navbar.html
 
 __License:__  
 This project is licensed under the MIT License.
